@@ -105,7 +105,7 @@ class StreamViewer:
         """
         self.keep_running = False
 
-def main(args):
+def main():
     port = PORT
 
     parser = argparse.ArgumentParser()
@@ -123,5 +123,4 @@ def main(args):
 
 if __name__ == '__main__':
     _thread.start_new_thread(senddataThread, (1, ))
-    _thread.start_new_thread(main, (1,))
     main()
