@@ -1,13 +1,13 @@
      // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyDXl-dpH2yNaSFYR9QuT5gXbGC6eZtwBQA",
-    authDomain: "iotproj-510ee.firebaseapp.com",
-    databaseURL: "https://iotproj-510ee.firebaseio.com",
-    projectId: "iotproj-510ee",
-    storageBucket: "iotproj-510ee.appspot.com",
-    messagingSenderId: "527362158568",
-    appId: "1:527362158568:web:de6f8df349a0d684d5fe5d",
-    measurementId: "G-KSWRNNX3Q3"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);

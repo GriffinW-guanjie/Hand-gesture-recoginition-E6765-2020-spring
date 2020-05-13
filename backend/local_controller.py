@@ -11,13 +11,13 @@ globaldata = []
 
 def senddataThread(ThreadName):
     from firebase import firebase
-    application = firebase.FirebaseApplication('https://iotproj-510ee.firebaseio.com', None)
+    application = firebase.FirebaseApplication('firebaseurl', None)
 
     while True:
         time.sleep(0.2)
         #try:
         if len(globaldata)!=0:
-                post = application.post(data=globaldata[0], url='https://iotproj-510ee.firebaseio.com')
+                post = application.post(data=globaldata[0], url='firebaseurl')
                 print(globaldata)
                 print('success')
                 globaldata.remove(globaldata[0])
